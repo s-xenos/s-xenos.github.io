@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <!--Based on filip-os.github.io repo-->
+    <!--Last edit Sep 2024-->
+
+    <script src="js_functions/includeHTML.js"></script>
+
+    <head>
+        <!-- Metatags -->
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="My Console-Themed Website - Sokratis Xenos" />
+        <meta name="author" content="Sokratis Xenos" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="keywords"
+            content="s-xenos, github, github pages, Sokratis Xenos" />
+
+        <!-- Title -->
+        <title>Welcome</title>
+
+        <!-- css stylink link -->
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="Default_Header">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">/About</a></li>
+                        <li><a href="research.html">/Research</a></li>
+                        <li><a href="teaching.html">/Teaching</a></li>
+                        <li><a href="publications.html">/Publications</a></li>
+                        <li><a href="posts.html">/Posts</a></li>
+                        <li><a href="links.html">/Links</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main>
+            <div class="Default_Container">
+                <div class="Picture_Banner">
+                    <img
+                        src="media/profile.jpg"
+                        alt="Profile Picture"
+                        height="100"
+                        id="profile_pic" />
+                    <h1 style="text-align: center">Sokratis Xenos</h1>
+                    <p style="text-align: center; font-size: 15px">
+                        Mechanical Engineer, Ph.D.
+                    </p>
+
+                    <ul class="Links_ul">
+                        <li>
+                            <img
+                                src="media/svg_logos/location.svg"
+                                alt="Icon:Map"
+                                class="svg_icons"
+                                height="14" />
+                            Volos, Greece
+                        </li>
+
+                        <li>
+                            <img
+                                src="media/svg_logos/github.svg"
+                                alt="Logo:Github"
+                                class="svg_icons"
+                                height="14" />
+                            <a href="https://github.com/s-xenos">Github</a>
+                        </li>
+
+                        <li>
+                            <img
+                                src="media/svg_logos/email.svg"
+                                alt="Icon:Letter"
+                                class="svg_icons"
+                                height="14" />
+                            sxenos@uth.gr
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="About_text">
+                    <br />
+                    <h1>Welcome!</h1>
+                    <p></p>
+                    <p>Hello there. I am Sokratis Xenos!</p>
+                    <p>
+                        I am a Mechanical Engineering specializing in Computational Mechanics, focusing on Porous Metals, 
+						Fracture & Coupled Problems. Applying analytical skills to innovate and solve intricate engineering 
+						challenges. Passionate about leveraging expertise for impactful solutions.
+
+                    </p>
+                    <p>
+                        🤝 Collaboration:
+					</p>
+					<p>
+                        Effective communicator in interdisciplinary teams.
+						Leading discussions for project advancement.
+                    </p>
+                    <p>
+                        🔍 Analytical:
+					</p>
+					<p>
+						Proficient in modeling, simulation & data analysis.
+						Innovative problem-solving with practical application.
+                    </p>
+                    <p>
+						🌟 Vision:
+					<p>
+					</p>
+						Developing sustainable engineering solutions.
+						Collaborating with industry for real-world impact.
+                    </p>
+                </div>
+            </div>
+
+			<br />
+            <div class="Default_Container">
+                <br />
+                <p>
+                    Research interests and projects described in more detail in
+                    <a href="research.html">/Research</a>
+                    page.
+                </p>
+
+                <p>
+                    My journal/conference/thesis publications, are available at
+                    <a href="publications.html">/Publications</a>.
+                </p>
+
+                <p>
+                    My CV can be found here
+                    <a href="docs/CV.pdf">here</a>.
+                </p>
+            </div>
+
+            <br />
+            <div class="Social_Menu">
+                <a href="https://github.com/s-xenos">
+                    <img
+                        src="media/svg_logos/github.svg"
+                        alt="Icon:github"
+                        class="svg_icons" />
+                </a>
+
+                <a href="https://gr.linkedin.com/in/socratesdxenos">
+                    <img
+                        src="media/svg_logos/linkedin.svg"
+                        alt="Icon:linkedin"
+                        class="svg_icons" />
+                </a>
+
+                <a href="https://scholar.google.com/citations?user=7Tz86-YAAAAJ&hl=en&oi=sra">
+                    <img
+                        src="media/svg_logos/google-scholar.svg"
+                        alt="Icon:google-scholar"
+                        class="svg_icons" />
+                </a>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Default_Footer">
+                <div w3-include-html="html_includes/footer_default.html"></div>
+
+                <!-- Note: when using this include just reading the html file will not work 
+                (you need to open on a localhost) -->
+            </div>
+        </footer>
+    </body>
+	
+	
+    <!-- Checking if the user has previously selected a light/dark theme -->
+    <!-- This is run when the page reloads (script)-->
+    <!--<script>
+        const theme = localStorage.getItem("theme");
+        if (theme === "dark") {
+            document.documentElement.setAttribute("data-theme", "dark");
+            document.getElementById("btn_dark_mode").innerHTML = "/Light Mode";
+            document.getElementById("email_pic").src = "media/notanemailadress_dark.png";
+        }
+    </script>-->
+
+    <!-- Toggle dark mode function -->
+    <!-- Blur Removes the focus from the button after click without affecting accessibility -->
+    <!-- Change button string -->
+    <!-- Change figure -->
+    <!--<script>
+        function fun_mode_button_index() {
+            document.activeElement.blur();
+
+            let currentMode = document.documentElement.getAttribute("data-theme");
+            if (currentMode === "dark") {
+                document.getElementById("btn_dark_mode").innerHTML = "/Dark Mode";
+                document.documentElement.setAttribute("data-theme", "light");
+                window.localStorage.setItem("theme", "light");
+                document.getElementById("email_pic").src =
+                    "media/notanemailadress_light.png";
+            } else {
+                document.getElementById("btn_dark_mode").innerHTML = "/Light Mode";
+                document.documentElement.setAttribute("data-theme", "dark");
+                window.localStorage.setItem("theme", "dark");
+                document.getElementById("email_pic").src =
+                    "media/notanemailadress_dark.png";
+            }
+        }
+    </script>-->
+</html>
