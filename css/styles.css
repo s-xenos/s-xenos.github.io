@@ -222,7 +222,7 @@ footer {
     display: block;
     margin-left: 14%;
     margin-right: 25%;
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     /*border:2px solid var(--txt_col);*/
     border: 1.5px solid black;
 }
