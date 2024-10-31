@@ -185,20 +185,20 @@
 	
     <!-- Checking if the user has previously selected a light/dark theme -->
     <!-- This is run when the page reloads (script)-->
-    <!--<script>
+    <script>
         const theme = localStorage.getItem("theme");
         if (theme === "dark") {
             document.documentElement.setAttribute("data-theme", "dark");
             document.getElementById("btn_dark_mode").innerHTML = "/Light Mode";
             document.getElementById("email_pic").src = "media/notanemailadress_dark.png";
         }
-    </script>-->
+    </script>
 
     <!-- Toggle dark mode function -->
     <!-- Blur Removes the focus from the button after click without affecting accessibility -->
     <!-- Change button string -->
     <!-- Change figure -->
-    <!--<script>
+    <script>
         function fun_mode_button_index() {
             document.activeElement.blur();
 
@@ -217,5 +217,5 @@
                     "media/notanemailadress_dark.png";
             }
         }
-    </script>-->
+    </script>
 </html>
