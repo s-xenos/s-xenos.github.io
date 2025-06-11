@@ -111,7 +111,7 @@ header {
     margin-bottom: 30px;
     border-top: dashed 1px var(--txt_col);
     border-bottom: dashed 1px var(--txt_col);
-    text-align: right;
+    text-align: center;
     padding: 10px 0 10px 0;
 }
 
