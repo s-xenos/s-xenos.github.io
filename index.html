@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <!--Based on filip-os.github.io repo-->
+    <!--Last edit June 2025-->
+
+    <!--script src="js_functions/includeHTML.js"></script-->
+
+    <head>
+        <!-- Metatags -->
+        <meta charset="UTF-8" />
+        <meta
+            name="description"
+            content="My Console-Themed Website - Sokratis Xenos" />
+        <meta name="author" content="Sokratis Xenos" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta
+            name="keywords"
+            content="s-xenos, github, github pages, Sokratis Xenos" />
+
+        <!-- Title -->
+        <title>Welcome</title>
+
+        <!-- css stylink link -->
+        <link rel="stylesheet" href="css/styles.css" />
+		
+		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="Default_Header">
+                <nav class="desktop">
+                    <ul>
+					    <div class="Float_Left">
+                            <li><b>Sokratis Xenos, M.Eng., Ph.D.</b></li>
+						</div>
+                        <div class="Float_Right"> 
+                            <li><a href="index.html"><b>About</b></a></li>
+                            <li><a href="research.html"><b>Research</b></a></li>
+                            <li><a href="publications.html"><b>Publications</b></a></li>
+                            <!--<li><a href="teaching.html"><b>Teaching</b></a></li>
+                            <li><a href="posts.html"><b>Posts</b></a></li>
+                            <li><a href="links.html"><b>Links</b></a></li>*-->
+						</div>
+                    </ul>
+                </nav>
+				<nav class="mobile">
+				    <div class="topnav">
+                        <a href="#home" class="active"><b>Sokratis Xenos, M.Eng., Ph.D.</b></a>
+                        <div id="myLinks">
+                            <a href="index.html"><b>About</b></a>
+                            <a href="research.html"><b>Research</b></a>
+							<a href="publications.html"><b>Publications</b></a>
+                        </div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+				</nav>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main>
+            <div class="Default_Container">
+                <div class="Picture_Banner">
+                    <img
+                        src="media/profile.jpg"
+                        alt="Profile Picture"
+                        height="100"
+                        id="profile_pic"/>
+
+                    <ul class="Links_ul">
+                        <li>
+                            <img
+                                src="media/svg_logos/location.svg"
+                                alt="Icon:Map"
+                                class="svg_icons"
+                                height="14" />
+                            Volos, Greece
+                        </li>
+
+                        <li>
+                            <img
+                                src="media/svg_logos/email.svg"
+                                alt="Icon:Letter"
+                                class="svg_icons"
+                                height="14" />
+                            sxenos@uth.gr
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="About_text">
+				    <br />
+                    <h1>Welcome!</h1>
+                    <p></p>
+                    <p>I am Sokratis Xenos and this is my personal website!</p>
+                    <p>
+                        I am a mechanical engineer with a Ph.D. in computational mechanics, jointly awarded in 2024 by the Laboratoire de 
+						Mécanique des Solides (LMS) at École Polytechnique (France) and the Department of Mechanical Engineering at the 
+						University of Thessaly (Greece) under the supervision of Professor Kostas Danas and Professor Nikolaos Aravas.
+                    </p>
+                    <p>
+                        I hold an integrated Master’s degree (MEng.) in Mechanical Engineering from the University of Thessaly, where I graduated 
+						with honors. Since 2019, I have also been a research associate at the Laboratory of Mechanics of Materials at the University 
+						of Thessaly, contributing to various national and international research projects.
+					</p>
+					<p>
+                        In addition to my academic and research work, I have experience in tutoring undergraduate courses in mechanics of materials and 
+						have supervised several thesis projects. I am proficient in scientific programming, finite element modeling, and computational 
+						analysis using commercial and open-source tools.
+                    </p>
+                    <p>
+                        My academic journey is driven by a strong interest in applying theoretical mechanics to practical engineering problems, combining 
+						rigorous modeling with computational implementation.
+					</p>
+                </div>
+            </div>
+
+			<br />
+            <div class="Default_Container"
+			     style="text-align: center">
+                <br />
+                <p>
+                    Research interests and projects described in more detail in
+                    <a href="research.html">Research</a>
+                    page.
+                </p>
+
+                <p>
+                    My journal/conference/thesis publications, are available at
+                    <a href="publications.html">Publications</a>.
+                </p>
+
+                <p>
+                    My Resume can be found
+                    <a href="docs/resume/main.pdf">here</a>.
+                </p>
+            </div>
+
+            <br />
+            <div class="Social_Menu">
+                <a href="https://github.com/s-xenos">
+                    <img
+                        src="media/svg_logos/github.svg"
+                        alt="Icon:github"
+                        class="svg_icons" />
+                </a>
+
+                <a href="https://gr.linkedin.com/in/socratesdxenos">
+                    <img
+                        src="media/svg_logos/linkedin.svg"
+                        alt="Icon:linkedin"
+                        class="svg_icons" />
+                </a>
+
+                <a href="https://scholar.google.com/citations?user=7Tz86-YAAAAJ&hl=en&oi=sra">
+                    <img
+                        src="media/svg_logos/google-scholar.svg"
+                        alt="Icon:google-scholar"
+                        class="svg_icons" />
+                </a>
+				<a href="https://www.researchgate.net/profile/Sokratis-Xenos">
+                    <img
+                        src="media/svg_logos/researchgate.svg"
+                        alt="Icon:researchgate"
+                        class="svg_icons" />
+                </a>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Default_Footer">
+                <div w3-include-html="html_includes/footer_default.html"></div>
+
+                <!-- Note: when using this include just reading the html file will not work 
+                (you need to open on a localhost) -->
+            </div>
+        </footer>
+    </body>
+	
+	<!--Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon -->
+	<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+         x.style.display = "none";
+      } else {
+         x.style.display = "block";
+      }
+    }
+	</script>
+</html>
