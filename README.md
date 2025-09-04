@@ -4,7 +4,7 @@
 
 
 # My Personal Website: s-xenos.github.io
-In this repository you can find an html-css based website.
+In this repository you can find a basic html-css based website.
 
 ## Basic features
 * Seperate code for smartphone - desktop viewing
