@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    <!--Based on filip-os.github.io repo-->
+    <!--Last edit June 2025-->
+
+    <!--script src="js_functions/includeHTML.js"></script-->
+
+    <!--script src="js_functions/get_theme_plain.js"></script-->
+
+    <!--script src="js_functions/fun_mode_button_plain.js"></script-->
+
+    <head>
+        <!-- Metatags -->
+        <meta charset="UTF-8" />
+        <meta name="author" content="Sokratis" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Title -->
+        <title>Research</title>
+
+        <!-- css stylink link -->
+        <link rel="stylesheet" href="css/styles.css" />
+		
+		<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="Default_Header">
+                <nav class="desktop">
+                    <ul>
+					    <div class="Float_Left">
+                            <li><b>Sokratis Xenos, M.Eng., Ph.D.</b></li>
+						</div>
+                        <div class="Float_Right"> 
+                            <li><a href="index.html"><b>About</b></a></li>
+                            <li><a href="research.html"><b>Research</b></a></li>
+                            <li><a href="publications.html"><b>Publications</b></a></li>
+                            <!--<li><a href="teaching.html"><b>Teaching</b></a></li>
+                            <li><a href="posts.html"><b>Posts</b></a></li>
+                            <li><a href="links.html"><b>Links</b></a></li>*-->
+						</div>
+                    </ul>
+                </nav>
+				<nav class="mobile">
+				    <div class="topnav">
+                        <a href="#home" class="active"><b>Sokratis Xenos, M.Eng., Ph.D.</b></a>
+                        <div id="myLinks">
+                            <a href="index.html"><b>About</b></a>
+                            <a href="research.html"><b>Research</b></a>
+							<a href="publications.html"><b>Publications</b></a>
+                        </div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+				</nav>
+            </div>
+        </header>
+
+        <!-- Main Body -->
+        <main>
+            <div class="Default_Container">
+                <h1>Research Interests</h1>
+                <p>
+                    My research lies at the intersection of computational and continuum mechanics, with a particular focus on the 
+					constitutive modeling and numerical simulation of porous and ductile materials. I work on developing physically 
+					motivated, efficient models for predicting complex mechanical behavior such as void growth, damage localization, 
+					and ductile fracture in metals. A key aspect of my work involves gradient-enhanced and non-local plasticity formulations 
+					aimed at overcoming numerical challenges like mesh-dependence. I’m also interested in multiscale and multiphysics problems, 
+					including hydrogen-induced damage in structural materials, and the development of computational tools for designing 
+					damage-tolerant microstructures. My work combines theoretical modeling, numerical implementation (mainly in ABAQUS and 
+					Fortran), and validation through comparisons with experimental data.				
+                </p>
+            </div>
+
+            <br />
+
+            <div class="Default_Container">
+                <h1>Current Projects</h1>
+                <p>
+                    <b> Computational Modeling of Hydrogen Embrittlement in Steels. </b>
+                </p>
+                <p>
+                    My current research focuses on the computational modeling of hydrogen embrittlement (HE) in structural steels, a key concern 
+					for the safe deployment of hydrogen energy infrastructure. We are developing hydrogen-informed continuum damage models that 
+					incorporate the detrimental effects of hydrogen on mechanical performance. Central to our approach is the integration of transient 
+					trapping–detrapping kinetics, which allows us to simulate hydrogen diffusion and accumulation under evolving mechanical fields with 
+					improved accuracy. We are also building efficient computational tools capable of simulating the entire deformation process — up to 
+					the incipience of failure — under hydrogen exposure. To validate the predictive capabilities of our models, we perform comparisons 
+					with experimental data on medium to high strength steels. The ultimate goal is to integrate this numerical framework into 
+					fluid–structure interaction (FSI) simulations for robust assessment of hydrogen-assisted failure in pipeline steels.
+                </p>
+            </div>
+            <div class="external-link">
+                <p>
+                    Most recent publication on JMPS (2025):
+                    <a href=""> Soon Available </a>
+                </p>
+            </div>
+
+            <br />
+			
+            <!-- <div class="Default_Container">
+			    <h1>Past Projects</h1>
+                <p>
+                    <b>Add past project here.</b>
+                </p>
+				<p> 
+				    add past project description here
+				</p>
+            </div>
+			<div class="external-link">
+                <p>
+                    Add corrsponding publication here (date):
+                    <a href=""> DOI: </a>
+                </p>
+            </div>
+            <div class="external-link">-->
+			
+            <div class="Default_Container">
+			    <h1>Student Mentoring</h1>
+                <p>
+                    
+                </p>
+				<ul>
+					<li>
+                        [ST1] Alexandris, F. (2024-2025). “Bending of Thin-Walled Elastic Beams: Analytical 
+						& Numerical Solutions”. Diploma Thesis. University of Thessaly, Greece.
+                    </li>
+					<li>
+                        [ST2] Giannoulas, K. (2024-2025). “A modified boundary layer formulation for 
+						the problem of Mode-I loading of the single-edge notched specimen in a hydrogen 
+						environment”. Diploma Thesis. University of Thessaly, Greece.
+                    </li>
+                    <li>
+                        [ST3] Naris, K., (2022-2023). “An isotropic elastic-plastic model with
+                        hydrogen effects: Application to the problem of Mode-I fracture
+                        of a blunting crack” Diploma Thesis. University of Thessaly, Greece. 
+                    </li>
+                    <li>
+                        [ST4] Siomadis, I. (2021-2022). “Elastic Beam Analysis: Analytical 
+                        and Numerical Solutions”. Diploma Thesis. University of Thessaly, Greece.
+                    </li>
+                    <li>
+                        [ST5] Giotas, A. (2020-2021). “Finite Element Analysis of the
+                        Automotive Crash Box Impact Test”. Diploma Thesis. University of Thessaly, 
+						Greece.
+                    </li>
+				</ul>
+            </div>
+			
+			<br />
+
+            <div class="Default_Container">
+			    <h1>My Theses</h1>
+				<div class="external-link">
+                    <p>
+                        My diploma thesis is available here:
+                        <a href="https://ir.lib.uth.gr/xmlui/handle/11615/49518"> view </a>
+                    </p>
+                    <p>
+                        My dissertation is available here:
+                        <a href="https://theses.fr/2024IPPAX040"> view </a>
+                    </p>
+				</div>
+            </div>
+
+            <br />
+
+            <div class="Social_Menu">
+                <a href="https://github.com/s-xenos">
+                    <img
+                        src="media/svg_logos/github.svg"
+                        alt="Icon:github"
+                        class="svg_icons" />
+                </a>
+
+                <a href="https://gr.linkedin.com/in/socratesdxenos">
+                    <img
+                        src="media/svg_logos/linkedin.svg"
+                        alt="Icon:linkedin"
+                        class="svg_icons" />
+                </a>
+
+                <a href="https://scholar.google.com/citations?user=7Tz86-YAAAAJ&hl=en&oi=sra">
+                    <img
+                        src="media/svg_logos/google-scholar.svg"
+                        alt="Icon:google-scholar"
+                        class="svg_icons" />
+                </a>
+				<a href="https://www.researchgate.net/profile/Sokratis-Xenos">
+                    <img
+                        src="media/svg_logos/researchgate.svg"
+                        alt="Icon:researchgate"
+                        class="svg_icons" />
+                </a>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <div class="Default_Footer">
+                <div w3-include-html="html_includes/footer_default.html"></div>
+
+                <!-- Note: when using this include just reading the html file will not work 
+                (you need to open on a localhost) -->
+            </div>
+        </footer>
+    </body>
+
+	<!--Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon -->
+	<script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+         x.style.display = "none";
+      } else {
+         x.style.display = "block";
+      }
+    }
+	</script>
+</html>
